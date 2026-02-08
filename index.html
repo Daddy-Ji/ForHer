@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You 💌</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="hearts-bg"></div>
+
+  <div class="container">
+    <section class="scene" id="s1">
+      <h1 class="reveal">Hi... Ashita </h1>
+      <p class="reveal delay-1">I know this might feel sudden.</p>
+      <p class="reveal delay-2">We've never really spoken (except those 2 days)...</p>
+      <div class="continue-hint delay-3">click anywhere to continue</div>
+    </section>
+
+    <section class="scene hidden" id="s2">
+      <p class="reveal">But every time I saw you,</p>
+      <p class="reveal delay-1">something inside me just... stopped.</p>
+      <p class="reveal delay-2">Your smile. Your laugh. The way you carry yourself.</p>
+      <p class="reveal delay-3">I couldn't look away.</p>
+      <div class="continue-hint">click to go on</div>
+    </section>
+
+    <section class="scene hidden" id="s3">
+      <p class="reveal">I spent months trying to find the courage</p>
+      <p class="reveal delay-1">to say something in real life.</p>
+      <p class="reveal delay-2 glow">I never did.</p>
+      <p class="reveal delay-3">So I'm doing it here. Now.</p>
+      <div class="continue-hint">one more click...</div>
+    </section>
+
+    <section class="scene hidden" id="s4">
+      <div class="heart-beat">
+        <div class="big-heart"></div>
+      </div>
+      <h2 class="reveal slow">I like you. A lot.</h2>
+      <p class="reveal delay-1">More than like, honestly.</p>
+      <p class="reveal delay-2 special-text">I fell for you without even knowing your favorite food or what song you play when you're happy.</p>
+      <p class="reveal delay-3">And I would love the chance to find out.</p>
+    </section>
+
+    <section class="scene hidden proposal" id="s5">
+      <h1 class="reveal proposal-title">So...</h1>
+      <p class="reveal delay-1 question">Will you give me a chance?</p>
+      <p class="reveal delay-2 small">Will you ever become Ashi again  or maybe someone even closer??</p>
+
+      <div class="buttons delay-3">
+        <button class="btn yes">Yes 💖</button>
+        <button class="btn no">Maybe later...</button>
+      </div>
+
+      <div class="response hidden" id="happy">
+        <h2 class="reveal">Really?! 🥹💫</h2>
+        <p>I'm smiling like an idiot right now.</p>
+        <p>Please tell me your name again... and maybe something else? 🌹</p>
+      </div>
+
+      <div class="response hidden" id="sad">
+        <h2 class="reveal">I understand...</h2>
+        <p>Thank you for reading this far anyway.</p>
+        <p>You made my heart race just by existing. That's enough for me.</p>
+        <p class="small">Take care always. 💌</p>
+      </div>
+    </section>
+  </div>
+
+  <audio id="bgMusic" loop>
+    <source src="https://assets.codepen.io/831041/love-letter-ambient.mp3" type="audio/mpeg">
+    <!-- You can replace with a soft piano/ambient track URL or remove audio entirely -->
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
